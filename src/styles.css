@@ -1,0 +1,59 @@
+/* styles.css */
+/* styles.css */
+
+/* Style for the App container */
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f9f9f9;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+/* Style for the navigation */
+nav {
+  margin-top: 20px;
+  background-color: #007bff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Style for the navigation links */
+nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+/* Hover effect for the navigation links */
+nav a:hover {
+  color: #ffdd57;
+}
+
+/* Focus/active state for the navigation links */
+nav a:active {
+  color: #ffc107;
+}
+
+/* Additional styles to improve layout */
+nav a:first-child {
+  margin-left: 0;
+}
+
+nav a:last-child {
+  margin-right: 0;
+}
+
+/* Ensure that the content fits well inside the container */
+.App .content {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 20px;
+}

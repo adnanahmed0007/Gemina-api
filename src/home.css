@@ -1,0 +1,75 @@
+/* Home.css */
+
+.Home {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f0f8ff;
+}
+
+.Heading {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Heading h1 {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.Heading h2 {
+  color: #666;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+
+.main_part {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 600px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.Api_part {
+  margin-top: 20px;
+}
+
+.inf0_user {
+  margin-bottom: 20px;
+}
+
+.inf0_user p {
+  font-size: 1rem;
+  color: #444;
+}
+
+.input_filed {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+button {
+  padding: 10px 15px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
